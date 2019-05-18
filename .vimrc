@@ -62,8 +62,16 @@ set shiftwidth=2
 " [{()}] highlight
 set showmatch
 
+" paste without additional indentation
+set paste
+
 " Use mouse
 set mouse=a
+if has("mouse_sgr")
+  set ttymouse=sgr
+else
+  set ttymouse=xterm2
+end
 
 color jellybeans
 syntax on

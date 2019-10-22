@@ -62,9 +62,6 @@ set shiftwidth=2
 " [{()}] highlight
 set showmatch
 
-" paste without additional indentation
-set paste
-
 " Use mouse
 set mouse=a
 if has("mouse_sgr")

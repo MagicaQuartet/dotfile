@@ -1,6 +1,6 @@
 [user]
   name = MagicaQuartet
   email = dev.dskim@gmail.com
-
 [alias]
   prettylog = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold red)%h%C(reset) : %C(bold green)(%ar)%C(reset) - %C(cyan)%an <%ae>%C(reset)%C(bold yellow)%d%C(reset)%n%n%w(90,1,2)%C(white)%B%C(reset)%n'
+  vimdiff = difftool --tool=vimdiff3

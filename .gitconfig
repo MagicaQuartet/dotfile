@@ -1,6 +1,10 @@
+[core]
+	excludesfile = ~/.gitignore
 [user]
   name = MagicaQuartet
   email = dev.dskim@gmail.com
 [alias]
   prettylog = log --graph --abbrev-commit --branches --decorate --date=relative --format=format:'%C(bold red)%h%C(reset) : %C(bold green)(%ar)%C(reset) - %C(cyan)%an <%ae>%C(reset)%C(bold yellow)%d%C(reset)%n%n%w(90,1,2)%C(white)%B%C(reset)%n'
   vimdiff = difftool --tool=vimdiff3
+  l = log --graph --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset %C(dim normal)<%ae>%Creset' --abbrev-commit --all
+	lb = log --graph --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset %C(dim normal)<%ae>%Creset' --abbrev-commit
